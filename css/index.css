@@ -126,6 +126,29 @@ p {
     padding-right: 0;
 }
 
+#jumboLaser
+{
+    margin: 25px 0;
+}
+
+header
+{
+    width: 100%;
+}
+
+header nav ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+header nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     width: 100%;
     background: black;
