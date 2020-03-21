@@ -148,14 +148,55 @@ p {
     margin-top: 25px;
 }
 
-section
+.boxes .box:nth-child(1)
 {
-    display: flex;
+    background-color: teal;
+}
+.boxes .box:nth-child(2)
+{
+    background-color: gold;
+}
+.boxes .box:nth-child(3)
+{
+    background-color: cadetblue;
+}
+.boxes .box:nth-child(4)
+{
+    background-color: coral;
+}
+.boxes .box:nth-child(5)
+{
+    background-color: crimson;
+}
+.boxes .box:nth-child(6)
+{
+    background-color: forestgreen;
+}
+.boxes .box:nth-child(7)
+{
+    background-color: darkorchid;
+}
+.boxes .box:nth-child(8)
+{
+    background-color: hotpink;
+}
+.boxes .box:nth-child(9)
+{
+    background-color: indigo;
+}
+.boxes .box:nth-child(10)
+{
+    background-color: dodgerblue;
 }
 
 .columnDiv div
 {
     margin: 15px;
+}
+
+section
+{
+    display: flex;
 }
 
 header
@@ -199,3 +240,67 @@ hr
 {
     border-top: 1px dotted grey;
 }
+
+div button
+{
+    padding: 10px 20px;
+    background: white;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/*======================================================================*/
+
+#productJumbo
+{
+    object-fit: scale-down;
+}
+
+#imgWrapper
+{
+    max-width: 800px;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+section .midSection
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-end;
+    text-align: center;
+}
+
+section .midSection div
+{
+    max-width: 400px;
+    max-height: 300px;
+    margin: 10px 0;
+}
+
+section .midSection div p
+{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.smImgWrapper img
+{
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: scale-down;
+    transition: opacity .5s;
+    transition: transform .5s;
+}
+
+.smImgWrapper img:hover
+{
+    opacity: .8;
+    transform: scale(1.15);
+}
+
+/*#topsection
+{
+    margin: 25px 0;
+}*/
